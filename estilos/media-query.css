@@ -44,14 +44,14 @@ Grandes telas: acima de 1200px
     }
 
     #imagem{
-        float:left;
-        width: 50%;
+        float:right;
+        width: 48%;
         height: 100%;
     }
 
      #formulario{
-        float:right;
-        width:50%;
+        float:left;
+        width:49%;
     }
 
 
