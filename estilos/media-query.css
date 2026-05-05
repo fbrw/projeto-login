@@ -54,6 +54,10 @@ Grandes telas: acima de 1200px
         width:49%;
     }
 
+    #formulario p {
+        font-size: 1.2em;
+    }
+
 
 
 }

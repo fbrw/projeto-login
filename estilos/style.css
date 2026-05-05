@@ -34,7 +34,7 @@ main{
     overflow: hidden;
 
     background-color: white;
-    height: 500px;
+    height: 515px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(26, 5, 5, 0.49);
@@ -56,4 +56,62 @@ main{
 #formulario {
     display: block;
     padding: 10px;
+}
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p {
+    font-size: 0.8em;
+}
+
+
+.campo{
+    background-color: #5f2c82;
+    
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #175553;
+}
+
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white; 
+    color: #175553;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+a.botao:hover{
+    background-color: #7ec2bf;
+}
+
+a .material-icons{
+    font-size: 0.8em;
+    padding-left: 7px;
 }
